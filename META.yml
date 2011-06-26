@@ -1,0 +1,27 @@
+---
+abstract: 'Convert HTML To JS'
+author:
+  - 'Celogeek <geistteufel@yahoo.fr>'
+build_requires:
+  Carp: 0
+  English: 0
+  File::Find: 0
+  File::Temp: 0
+  Module::Build: 0.3601
+  Scalar::Util: 0
+  Test::More: 0.94
+  perl: 5.004
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110930'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Template-Plugin-HTMLToJS
+requires:
+  Template::Plugin::Filter: 0
+  parent: 0
+  perl: 5.006
+version: 0.1
