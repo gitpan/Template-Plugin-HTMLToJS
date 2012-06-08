@@ -6,35 +6,36 @@ use Module::Build 0.3601;
 
 
 my %module_build_args = (
-  'build_requires' => {
-    'Carp' => '0',
-    'English' => '0',
-    'File::Find' => '0',
-    'File::Temp' => '0',
-    'Module::Build' => '0.3601',
-    'Scalar::Util' => '0',
-    'Test::More' => '0.94',
-    'perl' => '5.004'
+  "build_requires" => {
+    "Carp" => 0,
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Module::Build" => "0.3601",
+    "Scalar::Util" => 0,
+    "Test::More" => "0.94",
+    "perl" => "5.004"
   },
-  'configure_requires' => {
-    'Module::Build' => '0.3601'
+  "configure_requires" => {
+    "Module::Build" => "0.3601"
   },
-  'dist_abstract' => 'Convert HTML To JS',
-  'dist_author' => [
-    'Celogeek <geistteufel@yahoo.fr>'
+  "dist_abstract" => "Convert HTML To JS",
+  "dist_author" => [
+    "celogeek <me\@celogeek.com>"
   ],
-  'dist_name' => 'Template-Plugin-HTMLToJS',
-  'dist_version' => '0.1',
-  'license' => 'perl',
-  'module_name' => 'Template::Plugin::HTMLToJS',
-  'recommends' => {},
-  'recursive_test_files' => 1,
-  'requires' => {
-    'Template::Plugin::Filter' => '0',
-    'parent' => '0',
-    'perl' => '5.006'
+  "dist_name" => "Template-Plugin-HTMLToJS",
+  "dist_version" => "0.2",
+  "license" => "perl",
+  "module_name" => "Template::Plugin::HTMLToJS",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {
+    "Template::Plugin::Filter" => 0,
+    "parent" => 0,
+    "perl" => "5.006",
+    "strict" => 0,
+    "warnings" => 0
   },
-  'script_files' => []
+  "script_files" => []
 );
 
 
