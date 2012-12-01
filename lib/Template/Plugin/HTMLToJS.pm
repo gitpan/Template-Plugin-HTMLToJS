@@ -13,7 +13,7 @@ package Template::Plugin::HTMLToJS;
 use strict;
 use warnings;
 
-our $VERSION = '0.3';    # VERSION
+our $VERSION = '0.4';    # VERSION
 
 use parent 'Template::Plugin::Filter';
 
@@ -29,6 +29,7 @@ sub filter {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -37,7 +38,7 @@ Template::Plugin::HTMLToJS - Convert HTML To JS
 
 =head1 VERSION
 
-version 0.3
+version 0.4
 
 =head1 SYNOPSIS
 
@@ -86,7 +87,7 @@ Convert html into javascript
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/celogeek/Template-Plugin-HTMLToJS/issues
+http://tasks.celogeek.com/projects/perl-modules-template-plugin-htmltojs
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -104,4 +105,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
