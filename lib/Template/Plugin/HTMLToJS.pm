@@ -1,7 +1,7 @@
 #
 # This file is part of Template-Plugin-HTMLToJS
 #
-# This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
+# This software is copyright (c) 2014 by celogeek <me@celogeek.com>.
 #
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
@@ -13,7 +13,7 @@ package Template::Plugin::HTMLToJS;
 use strict;
 use warnings;
 
-our $VERSION = '0.4';    # VERSION
+our $VERSION = '0.5';    # VERSION
 
 use parent 'Template::Plugin::Filter';
 
@@ -38,7 +38,7 @@ Template::Plugin::HTMLToJS - Convert HTML To JS
 
 =head1 VERSION
 
-version 0.4
+version 0.5
 
 =head1 SYNOPSIS
 
@@ -87,7 +87,7 @@ Convert html into javascript
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-http://tasks.celogeek.com/projects/perl-modules-template-plugin-htmltojs
+https://github.com/celogeek/Template-Plugin-HTMLToJS/issues
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -99,7 +99,7 @@ celogeek <me@celogeek.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by celogeek <me@celogeek.com>.
+This software is copyright (c) 2014 by celogeek <me@celogeek.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
